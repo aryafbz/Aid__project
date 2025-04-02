@@ -109,7 +109,7 @@ public class Database {
     public static void save(){
 
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("src/db.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("db.txt"));
             for (Entity e : entities) {
                 Serializer serializer = serializers.get(e.getEntityCode());
                 writer.write(serializer.serialize(e));
@@ -125,7 +125,7 @@ public class Database {
 
     public static void load(){
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("src/db.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("db.txt"));
             String line;
             while ((line = reader.readLine()) != null){
                 if(line.contains("Task")) {
