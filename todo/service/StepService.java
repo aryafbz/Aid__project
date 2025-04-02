@@ -151,6 +151,14 @@ public class StepService {
                 }
             }
         }
+        if(counter2 == 0){
+            try {
+                TaskService.setAsNotStarted(taskRef);
+            }
+            catch (InvalidEntityException e2) {
+                System.out.println(e2.getMessage());
+            }
+        }
     }
 
     public static void getStep(int taskRef){
