@@ -1,4 +1,4 @@
-Task/1/AP project/creating a databade and use it do operate a to-do list/2025-04-04/IN_PROGRESS/2025-04-02/2025-04-02
+Task/1/AP project/creating a databade and use it do operate a to-do list/2025-04-04/IN_PROGRESS/2025-04-02/2025-04-03
 Step/2/1/reading the documents/COMPLETED/2025-04-02/2025-04-02
-Step/3/1/create the project in java/NOT_STARTED/2025-04-02/2025-04-02
+Step/3/1/create the project in java/COMPLETED/2025-04-02/2025-04-03
 Step/4/1/upload it on github/NOT_STARTED/2025-04-02/2025-04-02
